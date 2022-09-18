@@ -1,0 +1,166 @@
+﻿body{
+   background-image: url(https://previews.123rf.com/images/provector/provector1210/provector121000055/15828145-Christmas-snowflakes-and-light-background-Stock-Vector-background-happy-holidays.jpg);
+   font: cursive;
+ }
+#navbar {
+    background-color: lightblue;
+	margin: 2px;
+	padding-top: 10px;
+	border-radius: 23%;
+	height: 50px;
+	width: 1280px;
+}
+#ending {
+	background-color: white;
+	margin: 10px;
+	padding-top: 10px;
+	height: 90px;
+	width: 1300px;
+}
+.onimage {
+	padding-left:2%;
+    font-size: 25px;
+    color: green;
+    font-weight:bold;
+    width: 100%;
+    height:100%;
+    background: url(img/image.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+.cite {
+    line-height: 25pt;
+	font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+	text-decoration-color: yellow;
+}
+.information {
+	color: maroon;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: purple; 
+	text-align: center;
+}
+.radius
+{
+	background-color: white;
+    border-color : pink; 
+    border-width : small;
+    border-style : solid;
+    border-radius: 50%;
+    padding : 2% ;
+    margin : 5% ;
+}
+.soccer {
+	font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: purple;
+	color: lawngreen;
+	text-align:center;
+}
+.basketball{
+	font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: purple;
+	color: orange;
+	text-align:center;
+}
+.center{
+	font-weight: bold;
+	text-align: left-side;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.icehockey{  
+    font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: purple;   
+    color: blue; 
+	text-align:center;
+}
+.bottom{
+    font-weight: 900;
+    text-decoration: underline;
+	text-decoration-color: black;
+	color: RGB(255,0,255)
+}
+.videogames{
+	font-size: 60px;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: black;
+	font-weight: bold;
+}
+.statistics {
+	font-weight: bolder;
+	color: green;
+	text-align: left-side;
+	margin-left: 4%;
+	font-size: 150px;
+	text-decoration: underline;
+	text-decoration-color: purple;
+}
+.player {
+	font-size: 60px;
+	color: #000080;
+	margin: 4%;
+}
+a{
+    line-height: 25pt;
+	font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+	text-decoration-color: yellow;
+}
+a:hover{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+p{
+	line-height: 50px;
+	font-size: 35px;
+    text-align : center-left;
+	font-family: arial;
+}
+h1{
+    font-size: 40px;
+	font-family: serif;
+}
+h2, h3, h4, h5, h6, h7{
+    font-size: 100px;
+    text-align: justify;
+    line-height: 14pt
+}
+#onimage{
+padding-left:2%;
+font-size: 25px;
+color: green;
+font-weight:bold;
+width: 100%;
+height:100%;
+background: url(img/image.jpg) 50% 0 no-repeat;
+background-size:cover;
+}
+pre {
+	line-height: 15pt;
+}
+ul{
+	line-height: 10pt;
+	font-size:25px;
+	color: #8B0000;
+}
+.list {
+	font-size: 30px;
+	line-height: 32pt;
+	color: #8B0000;
+}
+.heading {
+	font-size:40px;
+	margin-top: 8px;
+}
+
+
+
+

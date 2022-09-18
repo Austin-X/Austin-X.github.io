@@ -1,0 +1,71 @@
+body {
+   background-color: black;
+}
+.soccer {
+	color: RGB(220,20,60);
+	text-decoration: underline;
+	text-decoration-color: green;
+	text-align: center;
+	font-weight: lighter;
+}
+.counterstrike {
+	color: #00FFFF;
+	font-size: 64px;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+.center {
+	text-align: center;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: #01796f;
+	color: RGB(124,252,0)
+}
+.Minecraft{  
+        color: blue; 
+}
+.bottom {
+        color: RGB(255,0,0);
+}
+a {
+    color: white;
+    text-decoration: underline;
+	text-decoration-color: red;
+}
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+p {
+    font-family: "Times New Roman", fantasy, sans serif;
+	line-height: 43pt;
+	font-size: 40px;
+    text-align : left-side;
+    color: yellow;
+}
+h1 {
+        font-size: 150px;
+        color: red;
+}
+h2, h3, h4  {
+    font-size: 100px;
+}
+li  {
+        font-size: 50px;
+}
+ul  {
+	width: 50%;
+	margin: 3%;
+	color: lawngreen;
+}
+img {
+	background-color: white;
+        border-color : Green; 
+	border-width : small;
+	border-style : solid;
+        border-radius: 50%;
+	padding : 5% ;
+	margin : 2% ;
+}

@@ -1,0 +1,107 @@
+body{
+   background-image: url(https://images.template.net/wp-content/uploads/2015/08/Light-Grey-Background-Premium-Download.png);
+   font: cursive;
+ }
+#navbar {
+    background-color: #5c755e;
+	margin: 10px;
+	padding-top: 10px;
+	height: 90px;
+	width: 1300px;
+}
+#ending {
+	background-color: black;
+	margin: 10px;
+	padding-top: 10px;
+	height: 90px;
+	width: 1300px;
+}
+ .information {
+	color: maroon;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-decoration-color: purple; 
+	text-align: center;
+}
+.radius
+{
+	background-color: white;
+    border-color : pink; 
+    border-width : small;
+    border-style : solid;
+    border-radius: 50%;
+    padding : 2% ;
+    margin : 5% ;
+}
+.end {
+	font-size: 29px;
+	margin-top: 40px;
+	background-color: green;
+}
+.center{
+	font-weight: bold;
+	text-align: left-side;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.bottom{
+    font-weight: 900;
+    text-decoration: underline;
+	text-decoration-color: black;
+	color: RGB(255,0,255)
+}
+.videogames{
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: black;
+	font-weight: bold;
+}
+.statistics {
+	font-weight: bolder;
+	color: green;
+	text-align: left-side;
+	margin-left: 4%;
+	font-size: 150px;
+	text-decoration: underline;
+	text-decoration-color: purple;
+}
+.player {
+	font-size: 60px;
+	color: #000080;
+	margin: 4%;
+}
+a{
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+	text-decoration-color: yellow;
+}
+a:hover{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+p{
+	line-height: 50px;
+	font-size: 35px;
+    text-align : center-left;
+	font-family: arial;
+}
+pre {
+	line-height: 15pt;
+	font-size:25px;
+	color: #8B0000;
+}
+.list {
+	font-size: 30px;
+	line-height: 32pt;
+	color: #8B0000;
+}
+.heading {
+	font-size:40px;
+	margin-top: 40px;
+}
+
+
+
