@@ -1,4 +1,4 @@
-# StatisticsWebsite
+# StatisticsWebsite (SW)
 
 The link to the website is here: https://austin-x.github.io/SW/index.html
 
