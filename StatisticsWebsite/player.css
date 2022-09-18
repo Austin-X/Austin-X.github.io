@@ -1,5 +1,8 @@
 body{
-   background-image: url(https://images.template.net/wp-content/uploads/2015/08/Light-Grey-Background-Premium-Download.png);
+   background-image: url(https://media.istockphoto.com/photos/abstract-background-green-picture-id621484894?b=1&k=20&m=621484894&s=170667a&w=0&h=N5jh9me3fiSjYCMol3moBu3enlQzNgrwG1GXX5N4uhA=);
+   background-size:     cover;
+   background-repeat:   no-repeat;
+   background-position: center center; 
    font: cursive;
  }
 #navbar {
