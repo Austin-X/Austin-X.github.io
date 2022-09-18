@@ -1,12 +1,5 @@
 # StatisticsWebsite
 
-This is a website that I made back in Grade 9.
+This is a website that I made back in Grade 9 using HTML and CSS.
 
-
-# Installation
-
-#1: Download the repo as a zip
-
-#2: Extract the contents of that zip file to a location, make sure to remember the location
-
-#3: From the extracted contents, open the "index.html" file to view the website.
+The link to the website is here: https://austin-x.github.io/StatisticsWebsite/index.html
