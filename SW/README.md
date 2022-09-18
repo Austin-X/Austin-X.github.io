@@ -1,6 +1,6 @@
 # StatisticsWebsite
 
-The link to the website is here: https://austin-x.github.io/StatisticsWebsite/index.html
+The link to the website is here: https://austin-x.github.io/SW/index.html
 
 # Information
 
