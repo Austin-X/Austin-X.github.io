@@ -38,3 +38,19 @@ span {
 footer a {
     color: #e63946;
 }
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color: #457b9d;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
