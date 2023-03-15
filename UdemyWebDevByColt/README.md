@@ -1,6 +1,6 @@
 # Random Websites
 
-The link to an example website is here: https://austin-x.github.io/UdemyWebDevByColt/chickens.html
+The link to an example website is here: https://austin-x.github.io/UdemyWebDevByColt/Practice/chickens.html
 
 # Information
 
