@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookShip</title>
+    <link rel="icon" href="logo.svg">
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <ul class="nav nav-fill justify-content-center" style="height: 10vh">
+        <li class="w-50 border border-dark-subtle bg-dark bg-gradient nav-item text-center"><div class="fs-1 text-white nav-link">Shopping List</div></li>
+        <li class="w-50 border border-dark-subtle bg-dark bg-gradient nav-item text-center"><div class="fs-1 text-white nav-link">Recipes</div></li>
+    </ul>
+
+    <div class="d-flex flex-row mb-2" style="height: 90vh">
+        <div class="w-50 flex-fill border border-dark-subtle bg-body-secondary p-2">
+
+            <!-- Sort alphabetically button and reset button -->
+            <div class="my-3 d-flex justify-content-between">
+                <input title="Sort the list of items alphabetically" class="rounded-2 bg-success bg-gradient p-2" type="image" id="sort-alphabetically-button" src="sort_alphabetically.png"/>
+                <input title="Reset the counter for all items to 0" class="rounded-2 bg-danger bg-gradient p-2" type="image" id="reset-button" src="reset.png"/>
+            </div>
+
+            <!-- Lists the user's shopping items -->
+            <ul id="shopping-list" class="m-0 p-0 flex-column" style="list-style-type:none">
+                <li class="sort">
+                    <div class="d-flex border border-black bg-info-subtle fs-1">
+                        <span class="ms-2 me-auto">Apple</span>
+                        <span class="increment-count"><input type="image" id="plus-button" src="plus_button.png"/></span>
+                        <span class="px-3 total-count"></span>
+                        <span class="me-2 decrement-count"><input type="image" id="minus-button" src="minus_button.png"/></span>
+                    </div>
+                </li>
+                <li class="sort">
+                    <div class="d-flex border border-black bg-info-subtle fs-1">
+                        <span class="ms-2 me-auto">Tomatoes</span>
+                        <span class="increment-count"><input type="image" id="plus-button" src="plus_button.png"/></span>
+                        <span class="px-3 total-count"></span>
+                        <span class="me-2 decrement-count"><input type="image" id="minus-button" src="minus_button.png"/></span>
+                    </div>
+                </li>
+                <li class="sort">
+                    <div class="d-flex border border-black bg-info-subtle fs-1">
+                        <span class="ms-2 me-auto">Bread</span>
+                        <span class="increment-count"><input type="image" id="plus-button" src="plus_button.png"/></span>
+                        <span class="px-3 total-count"></span>
+                        <span class="me-2 decrement-count"><input type="image" id="minus-button" src="minus_button.png"/></span>
+                    </div>
+                </li>
+                <li class="sort">
+                    <div class="d-flex border border-black bg-info-subtle fs-1">
+                        <span class="ms-2 me-auto">Pumpkin Pie</span>
+                        <span class="increment-count"><input type="image" id="plus-button" src="plus_button.png"/></span>
+                        <span class="px-3 total-count"></span>
+                        <span class="me-2 decrement-count"><input type="image" id="minus-button" src="minus_button.png"/></span>
+                    </div>
+                </li>
+                <li class="sort">
+                    <div class="d-flex border border-black bg-info-subtle fs-1">
+                        <span class="ms-2 me-auto">Banana</span>
+                        <span class="increment-count"><input type="image" id="plus-button" src="plus_button.png"/></span>
+                        <span class="px-3 total-count"></span>
+                        <span class="me-2 decrement-count"><input type="image" id="minus-button" src="minus_button.png"/></span>
+                    </div>
+                </li>
+                <li class="sort">
+                    <div class="d-flex border border-black bg-info-subtle fs-1">
+                        <span class="ms-2 me-auto">Peanut Butter</span>
+                        <span class="increment-count"><input type="image" id="plus-button" src="plus_button.png"/></span>
+                        <span class="px-3 total-count"></span>
+                        <span class="me-2 decrement-count"><input type="image" id="minus-button" src="minus_button.png"/></span>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="px-2 bg-dark-subtle fs-2">Add another item</div>
+
+            <h3 class="m-3 p-3 bg-primary-subtle"><em>(Maybe we can add a drag-and-drop feature for custom ordering of shopping list)</em></h3>
+
+            <div class="container"><div class="mt-5 px-2 w-50 bg-success border border-black fs-2 text-center text-black">Find best deals</div></div>
+        </div>
+        <div class="w-50 flex-fill border border-dark-subtle bg-body-secondary p-2">
+            <h2 class="p-3 rounded-pill bg-warning text-center">The recipe of the day is <em>Peanut Butter Sandwich!</em></h2>
+            
+            <div class="m-3 p-3 bg-primary-subtle fs-2">
+                <div class="text-center">Pumpkin Squash</div>
+                <ul class="fs-5 left">
+                    <li>Pumpkin Pie (2x)</li>
+                </ul>
+                <button class="bg-success">Start</button>
+            </div>
+
+            <div class="m-3 p-3 bg-primary-subtle fs-2">
+                <div class="text-center">Peanut Butter Sandwich</div>
+                <ul class="fs-5 left">
+                    <li>Peanut Butter (10g)</li>
+                    <li>Bread (2x)</li>
+                </ul>
+                <button class="bg-success">Start</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

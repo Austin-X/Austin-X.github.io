@@ -1,0 +1,26 @@
+#sort-alphabetically-button {
+    width: 3vw;
+    height: 5vh;
+}
+#reset-button {
+    width: 3vw;
+    height: 5vh;
+}
+
+#plus-button, #minus-button {
+    width: 2vw;
+    height: 3vh;
+}
+
+#total-count {
+    padding: 3%;
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
