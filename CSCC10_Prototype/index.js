@@ -29,3 +29,11 @@ sortAlphabeticallyButton.addEventListener("click", () => {
     $('.sort').sort(comparator).appendTo("#shopping-list");
 });
 resetButton.addEventListener("click", () => { fillCounterArrayWithZeroes(); });
+
+// Setting up the text for the "Sort By" button when the user changes the recipe sorting option
+const recipeSortByButton = document.getElementById("recipe-sort-by-button");
+const recipeSortOptions = document.getElementById("recipe-sort-options").getElementsByTagName("li");
+for (const sortOption of recipeSortOptions) {
+    sortOption.addEventListener("click", () => { recipeSortByButton.innerHTML = "Sort By: " + sortOption.children[0].textContent});
+    console.log(sortOption.children[0]);
+}
