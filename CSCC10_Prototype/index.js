@@ -13,10 +13,10 @@ const decrementCounts = document.getElementsByClassName("decrement-count");
 for (let i = 0; i < numberOfItems; i++) {
     const counter = incrementCounts[i].parentElement.getElementsByTagName("span")[2];
     incrementCounts[i].addEventListener("click", () => {
-        counter.innerHTML = Number(counter.innerHTML) + 1;
+        counter.innerHTML = Math.max(Number(counter.innerHTML) + 1, 0);
     });
     decrementCounts[i].addEventListener("click", () => {
-        counter.innerHTML = Number(counter.innerHTML) - 1;
+        counter.innerHTML = Math.max(Number(counter.innerHTML) - 1, 0);
     });
 }
 
